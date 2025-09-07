@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libXOR_CIPHER_op.so -o libXOR_CIPHER_op.so CMakeFiles/XOR_CIPHER_op.dir/src/xor_encrypt.c.o CMakeFiles/XOR_CIPHER_op.dir/src/xor_decrypt.c.o 

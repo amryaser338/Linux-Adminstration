@@ -1,0 +1,9 @@
+/home/amr/Project/Part2/project_cmake/Applications/build/CMakeFiles/output.dir
+/home/amr/Project/Part2/project_cmake/Applications/build/CMakeFiles/edit_cache.dir
+/home/amr/Project/Part2/project_cmake/Applications/build/CMakeFiles/rebuild_cache.dir
+/home/amr/Project/Part2/project_cmake/Applications/build/caesar_build/CMakeFiles/CAESAR_CIPHER_op.dir
+/home/amr/Project/Part2/project_cmake/Applications/build/caesar_build/CMakeFiles/edit_cache.dir
+/home/amr/Project/Part2/project_cmake/Applications/build/caesar_build/CMakeFiles/rebuild_cache.dir
+/home/amr/Project/Part2/project_cmake/Applications/build/xor_build/CMakeFiles/XOR_CIPHER_op.dir
+/home/amr/Project/Part2/project_cmake/Applications/build/xor_build/CMakeFiles/edit_cache.dir
+/home/amr/Project/Part2/project_cmake/Applications/build/xor_build/CMakeFiles/rebuild_cache.dir

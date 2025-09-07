@@ -1,0 +1,24 @@
+g)
+#Switch to the newly created user
+su - edges
+##################################
+h)
+#Display all the files inside the extracted folder recursively and with long listing format
+ls -lR folderpath/folder_name
+##################################
+i)
+#Change to owner of this directory recursively to be the new user
+sudo chown -R newuser:newgroup folderpath/foldername
+##################################
+j)
+#Again, display all the files inside the extracted folder recursively and with long listing format
+ls -lR folderpath/folder_name
+##################################
+k)
+#Search for the word “file” in the extracted directory recursively
+grep -r "file" folderpath/foldername
+##################################
+I)
+#Remove all the files ending with “.c”
+rm folderpath/foldername/*.c
+##################################

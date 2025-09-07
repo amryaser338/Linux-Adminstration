@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libCAESAR_CIPHER_op.a"
+)

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCAESAR_CIPHER_op.a CMakeFiles/CAESAR_CIPHER_op.dir/src/caesar_encrypt.c.o CMakeFiles/CAESAR_CIPHER_op.dir/src/caesar_decrypt.c.o
+/usr/bin/ranlib libCAESAR_CIPHER_op.a

@@ -1,0 +1,40 @@
+m)
+#How can we achieve this (2 methods) ? Write the steps to these 2 methods in a text file.
+First Method: Move it to a directory that in $PATH
+#First give it exection permission
+1) chmod +x userdef
+#Second move it to /user/local/bin
+2) sudo mv userdef /user/local/bin
+#Third run it
+3) userdef username userpass groupname
+###############################################
+Second Method: Add the script directory to the $PATH vairable
+#First give it exection permission
+1) chmod +x script_path/userdef
+#Second add the path to the $PATH
+2) export PATH="$PATH:script_path"
+#Third run it
+3) userdef username userpass groupname
+##############################################
+##############################################
+n)
+#We would like this change to be permanent, how can we do this?
+#First open your shell
+#If Bash: 
+	 nano ~/.bashrc
+#If zsh:
+	 nano ~/.zshrc
+#Second do this line
+export PATH="$PATH:script_path"
+#Third save and exit
+#############################################
+#############################################
+o)
+#We just made this change permanent, but we don’t want to wait until another terminal is opened, we would like to make this change NOW, and in this terminal. What could we do?
+#Run this command
+#If Bash:
+	 source ~/.bashrc
+#If zsh:
+	 source ~/.zshrc
+############################################
+############################################

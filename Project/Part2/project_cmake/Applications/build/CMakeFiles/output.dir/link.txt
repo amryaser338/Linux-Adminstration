@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/output.dir/app.c.o -o output  -Wl,-rpath,/home/amr/Project/Part2/project_cmake/Applications/build/xor_build caesar_build/libCAESAR_CIPHER_op.a xor_build/libXOR_CIPHER_op.so 
